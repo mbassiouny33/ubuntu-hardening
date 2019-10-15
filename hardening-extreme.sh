@@ -12,6 +12,7 @@ sudo apt-get purge zeitgeist-core zeitgeist-datahub python-zeitgeist rhythmbox-p
 
 
 
+
 ###disable root:
 ## step 1
 sudo tee /etc/passwd > /dev/null <<EOT
@@ -50,3 +51,7 @@ EOT
 ### delete mirrors to prevent updates
 sudo rm /etc/apt/sources.list
 
+
+
+#remove terminal to protect the os from even bad actions done by the user. Has to be done in a chroot env.
+#sudo apt-get purge --auto-remove gnome-terminal
