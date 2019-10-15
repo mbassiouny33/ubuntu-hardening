@@ -19,7 +19,7 @@ chmod +x hardening-moderate.sh
 ```
 
 
-If you're creating a system with important data for an average user(who might easily break their system) you might want to consider `hardening-extreme.sh` script. 
+If you're creating a system with important data for an average user(who might easily break their system) you might want to consider `hardening-extreme.sh` script as an addition the other script. 
 
-This script IS DANGEROUS, and it might make you're system unusable/ hard to repar, so go through the comments and read it carefully before you execute it.
+the "hardening-extreme" script IS a bit DANGEROUS, and it might make you're system unusable/ hard to repair, so go through the comments and read it carefully before you execute it.
 
